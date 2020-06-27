@@ -1,0 +1,18 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "bootstrap 5 website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootstrap5"
+  ],
+  "author": "akshay kashyap",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha1",
+    "bootstrap-icons": "^1.0.0-alpha5"
+  }
+}
