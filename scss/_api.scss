@@ -1,0 +1,42 @@
+/*
+    Template name: Utilities APIs
+*/
+// imported google font
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300&display=swap');
+
+.roboto{
+    font-family: 'roboto', cursive;
+}
+
+.lato{
+    font-family: 'lato', cursive;
+}
+
+$utilities : () !default;
+$utilities : map-merge(
+    (
+        "font-size" : (
+            property : font-size,
+            class : fs,
+            values : (
+                1 : 1rem,
+                1_5 : 1.5rem,
+                2 : 2rem,
+                2_5 : 2.5rem,
+                3 : 3rem
+            )
+        ),
+        "input-padding" : (
+            property : padding-top,
+            class: ipt,
+            values: (
+                6: 10rem,
+                7: 12rem,
+                8: 14rem,
+                9: 16rem,
+                10: 18rem
+            )
+        )
+    ),
+    $utilities
+);

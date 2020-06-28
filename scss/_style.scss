@@ -1,0 +1,34 @@
+/*
+    Template name: style.css
+    description: For styling index.html file
+
+*/
+
+
+
+#header{
+    .fixed{
+        width: 33vw;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: url('../assets/background-img.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+#site-main  {
+    
+    
+    #info{
+        height: 1200px;
+        background: whitesmoke;
+        padding: 1rem;
+    }
+}
+
