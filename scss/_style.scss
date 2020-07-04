@@ -5,14 +5,12 @@
 */
 
 
-
 #header{
     .fixed{
         width: 33vw;
-        height: 100%;
+        height: 120%;
         position: fixed;
         left: 0;
-        padding: 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -20,13 +18,22 @@
         background: url('../assets/background-img.jpg');
         background-size: cover;
         background-repeat: no-repeat;
+
+        > img{
+            width: 180px;
+        }
+    }
+    @media (max-width: 768px) {
+        .fixed{
+            position: relative;
+            width: 100%;
+            height: 50vh;
+        }
     }
 }
 #site-main  {
-    
-    
+   
     #info{
-        height: 1200px;
         background: whitesmoke;
         padding: 1rem;
     }
